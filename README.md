@@ -3,7 +3,7 @@ author:   André Dietrich
 
 email:    LiaScript@web.de
 
-version:  0.0.2
+version:  0.0.3
 
 language: en
 
@@ -16,7 +16,7 @@ link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
 
 script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 
-link:     custom.css
+link:     https://cdn.jsdelivr.net/gh/liascript/custom-style/custom.css
           https://fonts.googleapis.com/css?family=Abril Fatface
 -->
 
@@ -43,7 +43,7 @@ email:    LiaScript@web.de
 version:  0.0.1
 language: en
 narrator: US English Male
-link:     https://cdn.jsdelivr.net/gh/liascript/custom-style/dist/custom.css
+link:     https://cdn.jsdelivr.net/gh/liascript/custom-style/custom.css
           https://fonts.googleapis.com/css?family=Abril Fatface
 ```
 
