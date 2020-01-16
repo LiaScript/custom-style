@@ -3,7 +3,7 @@ author:   André Dietrich
 
 email:    LiaScript@web.de
 
-version:  0.0.1
+version:  0.0.2
 
 language: en
 
