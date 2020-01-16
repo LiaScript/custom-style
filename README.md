@@ -36,7 +36,7 @@ email:    LiaScript@web.de
 version:  0.0.1
 language: en
 narrator: US English Male
-link:     custom.css
+link:     https://cdn.jsdelivr.net/gh/liascript/custom-style/dist/custom.css
           https://fonts.googleapis.com/css?family=Abril Fatface
 ```
 
