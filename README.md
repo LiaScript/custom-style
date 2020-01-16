@@ -29,6 +29,13 @@ to see how this document gets rendered in [LiaScript](https://liascript.github.i
 
 ## How does it work?
 
+You can load any css file that you want, simply place the URL of your style
+into the main header of your document via `link: url.css`. Unfortunately loading
+`custom.css` directly does work only for local development, using it on github
+you will need a CDN, such as https://www.jsdelivr.com/?docs=gh ... simply refer
+to your style in your github repository.
+
+
 ``` markdown README.md
 <!--
 author:   André Dietrich
@@ -40,7 +47,13 @@ link:     https://cdn.jsdelivr.net/gh/liascript/custom-style/dist/custom.css
           https://fonts.googleapis.com/css?family=Abril Fatface
 ```
 
-``` css
+Actually you can overwrite every peace of LiaScript style, simply by changing
+one of the `lia-` classes... Unfortunately, you will have to put an `!important`
+to every css attribute in order to force its usage. Thus, if you do not change
+the color, you can still switch between the LiaScript color schemes, otherwise
+there will only one color config available...
+
+``` css  custom.css
 :root {
   --main-bg-color: #FF0000;
 }
@@ -86,6 +99,11 @@ h1.lia-h1 {
 }
 
 .lia-accordion {
+  background: var(--main-bg-color) !important;
+  font-size: 12px !important;
+}
+
+.lia-accordion-dummy {
   background: var(--main-bg-color) !important;
   font-size: 12px !important;
 }

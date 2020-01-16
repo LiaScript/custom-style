@@ -47,6 +47,11 @@ h1.lia-h1 {
   font-size: 12px !important;
 }
 
+.lia-accordion-dummy {
+  background: var(--main-bg-color) !important;
+  font-size: 12px !important;
+}
+
 .lia-quiz {
   border-color: var(--main-bg-color) !important;
 }
