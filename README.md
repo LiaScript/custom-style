@@ -3,7 +3,7 @@ author:   André Dietrich
 
 email:    LiaScript@web.de
 
-version:  0.0.3
+version:  1.0.0
 
 language: en
 
@@ -12,15 +12,18 @@ narrator: US English Male
 comment:  A simple demo that shows, how custom styles can be applied to a
           LiaScript document...
 
+
 link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
 
 script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 
-link:     https://cdn.jsdelivr.net/gh/liascript/custom-style/custom.css
+link:     custom.css
           https://fonts.googleapis.com/css?family=Abril Fatface
 -->
 
+
 # Custom-Style demo
+
 
 This is a simple demo, that shows how LiaScript courses can be customized.
 
@@ -34,6 +37,7 @@ into the main header of your document via `link: url.css`. Unfortunately loading
 `custom.css` directly does work only for local development, using it on github
 you will need a CDN, such as https://www.jsdelivr.com/?docs=gh ... simply refer
 to your style in your github repository.
+
 
 
 ``` markdown README.md
