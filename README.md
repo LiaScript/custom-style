@@ -17,7 +17,7 @@ link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
 
 script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 
-link:     custom.css
+link:     https://cdn.jsdelivr.net/gh/liascript/custom-style/custom.css
           https://fonts.googleapis.com/css?family=Abril Fatface
 -->
 
