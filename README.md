@@ -3,7 +3,7 @@ author:   André Dietrich
 
 email:    LiaScript@web.de
 
-version:  1.0.1
+version:  1.0.2
 
 language: en
 
@@ -21,6 +21,7 @@ link:     https://cdn.jsdelivr.net/gh/liascript/custom-style/custom.min.css
           https://fonts.googleapis.com/css?family=Abril Fatface
 -->
 
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://LiaScript.github.io/course/?https://github.com/LiaScript/custom-style) [![Gitter](https://badges.gitter.im/LiaScript/community.svg)](https://gitter.im/LiaScript/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # Custom-Style demo
 
