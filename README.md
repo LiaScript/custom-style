@@ -3,7 +3,7 @@ author:   André Dietrich
 
 email:    LiaScript@web.de
 
-version:  1.0.2
+version:  1.0.3
 
 language: en
 
@@ -12,6 +12,7 @@ narrator: US English Male
 comment:  A simple demo that shows, how custom styles can be applied to a
           LiaScript document...
 
+icon:     TUBAF_Logo.svg.png
 
 link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
 
